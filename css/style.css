@@ -1,0 +1,124 @@
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333; 
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000; 
+}
+
+.gradient-divider {
+  height: 3px; 
+  background: linear-gradient(to right, #668aff, #d15eff);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    color: #fff;
+  }
+  
+  header, footer {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .element { 
+    width: 1400px;
+    height: 900px;
+    border-radius: 15px;
+    background-color: rgb(61, 68, 75);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .elementt { 
+    width: 300px;
+    height: 150px;
+    border-top-right-radius: 1000px;
+    border-bottom-left-radius: 80px;
+    background-color:  rgb(61, 68, 75);
+    color: #ffffff;
+  }
+  header h1 {
+    margin: 0;
+  }
+  .gradient-text {
+    background-image: linear-gradient(45deg, #3498db, #e74c3c); 
+    color: transparent; 
+    display: inline-block;
+    padding: 10px; 
+    background-clip: text;
+  }
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  .left {
+    text-align: left;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #about-me {
+    background-color: #222222;
+    padding: 300px;
+    border-radius: 10px;
+    height: 150px;
+  }
+  
+  .footer {
+    background-color: #333333;
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     text-align: left; 
+     width: 99%;   
+     font-size: 19px;
+  font-weight: bold;
+    color: #fafaff;  
+   }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+
+.centered-text {
+    text-align: center;
+}
+
+.centered-text p {
+    font-size: 24px; 
+}
